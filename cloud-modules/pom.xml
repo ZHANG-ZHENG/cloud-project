@@ -9,5 +9,7 @@
 		<module>../cloud-eureka</module>
 		<module>../cloud-config-server</module>
 		<module>../cloud-redis</module>
+		<module>../cloud-consumer</module>
+		<module>../cloud-provider</module>
     </modules>  
 </project>
