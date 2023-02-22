@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: nacos-rest
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        password: nacos
+        username: nacos
+        # 用了隔离各个服务，比如dev，test
+        namespace: public
